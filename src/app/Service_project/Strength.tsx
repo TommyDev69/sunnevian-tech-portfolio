@@ -16,7 +16,7 @@ interface Material {
 
 const Strenght:React.FC<Material> = ({Tool}) => {
     return (  
-        <div className="ga p-12 grid grid-cols-3 md:grid-cols-3">
+        <div className="gap-12 grid grid-cols-3 md:grid-cols-3">
                 {Tool.map((subj) => (
                 <div className=" pfx-14" key={subj.id}>
                     
