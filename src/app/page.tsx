@@ -12,7 +12,7 @@ export default function Home() {
       <MainHero />
       <MainFeatures />
       <Main />
-     <Department />
+     {/* <Department /> */}
     </div>
   );
 }
