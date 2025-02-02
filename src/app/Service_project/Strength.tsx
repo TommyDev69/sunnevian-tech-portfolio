@@ -18,7 +18,7 @@ const Strenght:React.FC<Material> = ({Tool}) => {
     return (  
         <div className="space-x-6 grid grid-cols-3 md:grid-cols-3">
                 {Tool.map((subj) => (
-                <div className=" w-1/2" key={subj.id}>
+                <div className=" w-e1/2" key={subj.id}>
                     
                     <div className="md:w-[50%] mx-0 md:mx-auto">
 
