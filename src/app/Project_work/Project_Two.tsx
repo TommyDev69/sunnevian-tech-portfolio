@@ -1,16 +1,16 @@
 import Image from "next/image"
 interface goods{
-    id: number,
-    image: string,
-    paddingTop: string,
+  id: number;
+  image: string;
+  paddingTop?: string;
 }
 
 interface EcommerceProps{
-    Sec_title: string,
-    Ecomm_Sector: goods[],
+    Ecomm_Sector: goods[]; // Projects passed from parent
+    Sec_title: string;
    
 }
-const Project_Two:React.FC<EcommerceProps> = ({Sec_title, Ecomm_Sector}) => {
+const Project_Two:React.FC<EcommerceProps> = ({Ecomm_Sector, Sec_title}) => {
     return ( 
         <div className="py-8 px-4">
             <h2 className="text-center text-white text-2xl pb-8 md:text-[30px] capitalize">{Sec_title}</h2>

@@ -3,8 +3,8 @@ import Image from "next/image"
 
 interface product{
     id: number;
-    image : string,
-    paddingTop: string
+    image: string;
+    paddingTop?: string;
 }
 
 interface EducationProps{
