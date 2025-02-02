@@ -22,7 +22,7 @@ const Strenght:React.FC<Material> = ({Tool}) => {
                     
                     <div className="md:w-[50%] mx-4 md:mx-auto">
 
-                       <Image src={subj.Image} alt={`Project ${subj.id}`} className=" mx-0 md:mx-auto" />
+                       <Image src={subj.Image} alt={`Project ${subj.id}`} className=" mbx-0 md:mx-au to" />
                     </div>
                     <div className=" md:w-full bg-black">
                     <h3 className="mt-4 text-[8px] md:text-3xl  font-bold text-center  text-white">{subj.heading}</h3>
