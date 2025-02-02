@@ -16,18 +16,18 @@ interface Material {
 
 const Strenght:React.FC<Material> = ({Tool}) => {
     return (  
-        <div className="space-x-14 grid grid-cols-3 md:grid-cols-3">
+        <div className="gap-12 grid grid-cols-3 md:grid-cols-3">
                 {Tool.map((subj) => (
-                <div className="" key={subj.id}>
+                <div className=" px-10" key={subj.id}>
                     
-                    <div className="md:w-[50%] mx-auto">
+                    <div className="md:w-[50%] mx-0 md:mx-auto">
 
-                       <Image src={subj.Image} alt={`Project ${subj.id}`} className="w-[40%] mx-auto" />
+                       <Image src={subj.Image} alt={`Project ${subj.id}`} className=" mx-auto" />
                     </div>
                 
-                    <h3 className="mt-4 text-3xl font-bold text-center  text-white">{subj.heading}</h3>
+                    <h3 className="mt-4 text-xl md:text-3xl font-bold text-center  text-white">{subj.heading}</h3>
                     
-                    <p className="mt-2 text-center text-md md:text-[16px] text-white font-thin">{subj.content}</p>
+                    <p className="mt-2 text-center text-md md:text-[14px] text-white font-thin">{subj.content}</p>
                 </div>
             ))}
         </div>
