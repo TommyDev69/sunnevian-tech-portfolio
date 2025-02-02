@@ -46,12 +46,12 @@ const Department = () => {
     },
   ])
     return (
-        <div className="px-6 ">
-            <div className="py-[20px] bg-greern-600 my-24">
-                <h2 className="text-white text-center text-4xl font-bold capitalize">
-                The Service We Provide For You
+        <div className="md:pl-0 pl-10 mt-32 ">
+           
+                <h2 className="text-white text-center text-3xl md:text-[45px] pb-14 capitalize">
+                   The Service We Provide For You
                 </h2>
-            </div>
+            
        
            <Strenght  Tool={service}/>
         </div>
