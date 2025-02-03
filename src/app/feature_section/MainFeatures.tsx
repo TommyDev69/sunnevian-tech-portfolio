@@ -7,9 +7,9 @@ import Scanner from "./Scanner";
 
 export default function MainFeatures() {
   return (
-    <div className=" md:px-0 px-10 flex flex-col mt-10 mx-auto space-y-6 md:space-y-0">
+    <div className=" md:px-0 px-6 flex flex-col mt-10 mx-auto space-y-6 md:space-y-0">
       <div className="py-10">
-        <h1 className="text-white w-ful md: text-center font-bold text-3xl md:text-[35px] capitalize py-10">
+        <h1 className="text-white w-ful md: text-center  font-bold text-2xl md:text-[35px] capitalize py-10">
           motivation and evolution of a commputer age{" "}
         </h1>
       </div>
