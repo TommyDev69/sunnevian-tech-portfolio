@@ -1,3 +1,4 @@
+import MainContact from "./Contact/MainContact";
 import MainFeatures from "./feature_section/MainFeatures";
 import MainHero from "./Hero_Section/MainHero";
 import Navbar from "./Navbar/Navbar";
@@ -13,6 +14,7 @@ export default function Home() {
       <MainFeatures />
       <Main />
      <Department />
+     <MainContact />
     </div>
   );
 }
