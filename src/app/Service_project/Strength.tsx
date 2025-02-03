@@ -24,7 +24,7 @@ const Strenght:React.FC<Material> = ({Tool}) => {
 
                        <Image src={subj.Image} alt={`Project ${subj.id}`}  />
                     </div>
-                    <div className=" md:w-full bg-black">
+                    <div className=" md:w-full bg-blac">
                     <h3 className="mt-4 text-[8px] md:text-3xl  font-bold text-center  text-white">{subj.heading}</h3>
                     
                     <p className="mt-2 text-center text-[10px] md:text-left md:text-[14px] text-white font-thin">{subj.content}</p>
