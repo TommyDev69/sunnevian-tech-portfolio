@@ -20,9 +20,9 @@ const Strenght:React.FC<Material> = ({Tool}) => {
                 {Tool.map((subj) => (
                 <div className=" md:px-8 px-0  py-10" key={subj.id}>
                     
-                    <div className="md:w-[50%] mx-4 md:mx-auto">
+                    <div className="md:w-[50%] mx-6 md:mx-auto">
 
-                       <Image src={subj.Image} alt={`Project ${subj.id}`} className=" mbx-0 md:mx-au to" />
+                       <Image src={subj.Image} alt={`Project ${subj.id}`}  />
                     </div>
                     <div className=" md:w-full bg-black">
                     <h3 className="mt-4 text-[8px] md:text-3xl  font-bold text-center  text-white">{subj.heading}</h3>
